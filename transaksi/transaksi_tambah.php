@@ -7,7 +7,7 @@ if (!isset($_SESSION['cart']) || !is_array($_SESSION['cart'])) $_SESSION['cart']
 
 // hanya terima POST
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
-    header('Location: detail_list.php');
+    header('Location: transaksi_index.php');
     exit;
 }
 
